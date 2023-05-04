@@ -1,0 +1,22 @@
+{
+  "name": "express-2-3-may",
+  "version": "1.0.0",
+  "description": "ucamp CRUD API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ucamp",
+    "express",
+    "backend",
+    "servidor"
+  ],
+  "author": "Christian Serrano",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
