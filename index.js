@@ -2,7 +2,7 @@ const express = require('express'); // imports en node js sin ninguna configurac
 //cuando se agregan los traspiladores en vez de require se realizan imports
 const app = express(); //creacion de instancia app, la parte de express como función y se puede reducir :
 //const app = requiere(express)();  esta forma haria las dos instrucciones anteriores en una sola
-const port = 3000; //se instancia el puerto, que por lo regular el puerto es el 3000
+const port = process.env.port || 3000; //se instancia el puerto, que por lo regular el puerto es el 3000
 
 // config para recibir info, explica que dentro de express acepte los json, permite que nuestra
 //petición post reciba información desde el body
